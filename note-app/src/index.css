@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.imgg {
+    background-image: url(./assets/sticky-note-paper-background-free-png.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.inputs:focus {
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 600px) {
+
+    .block-1{
+        grid-template-columns: 1fr;
+    }
+}
